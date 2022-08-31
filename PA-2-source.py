@@ -88,7 +88,7 @@ def main():
                     for j in range(size):
                         array_i.append(random.randint(0, 300))
 
-                    # Sets array size to 1000 * input value "n'
+                    # Sets array size to 1000 * input value 'n'
                     size = 1000 * n
                     lists[i] = array_i
                     array_i = lists[i]
@@ -98,7 +98,7 @@ def main():
                 for i in range(v):
                     print (array_i[i], end = " ")
 
-                # Yields our execution time for the program, contingent upon our input value 'n'
+                # Yields our execution time for the program
                 # Default timer is used to avoid float division by 0 errors
                 start_time = timeit.default_timer()
                 mergeSort(array_i, 0, v - 1)
