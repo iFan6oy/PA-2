@@ -111,7 +111,7 @@ def main():
                 print("\n\nTime taken = " + str(total_time) + " seconds")
 
                 # Holds our data values for Input value 'n', n*log(n), execution time, and (n*log(n))/execution time
-                data = [n, n*(math.log10(n)), total_time, (n*(math.log(n)))/(total_time)]
+                data = [n, n*(math.log10(n)), total_time, (n*(math.log10(n)))/(total_time)]
                    
                 # Writes our data to the .csv file
                 writer.writerow(data)
